@@ -4,33 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <link rel="shortcut icon" href="img/icone_controle.png" type="image/x-icon">
+    <title>Lista com meus jogos Favoritos</title>
 </head>
 
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-                num = int(input(Digite um número))
-                if num % 2 == 0;
-                    print(f'0 número {num} é PAR')
-                else
-                    print(f'0 número {num} é ÍMPAR')
-                print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-    <blockquote cite="https://site..">
-        A diferença entre elementos inline e um bloco de 
-        texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HiperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    
+    <ul>
+        <li>Master System</li>
+        <ol>
+            <li>Sonic</li>
+            <ul type="square">
+                <li>Sonic The Hedgehog</li>
+                <li>sonic chaos</li>
+            </ul>
+            <li>Prince of Persia</li>
+        </ol>
+
+        <li>Super Nintendo</li>
+        <ol>
+            <li>Mario Bros</li>
+            <ul type="square">
+                <li>Super Mario World</li>
+                <li>Super Mario World 2: Yoshi's Island</li>
+            </ul>
+            <li>Donkey Kong</li>
+            <ul type="square">
+                <li>Donkey Kong Country</li>
+            </ul>
+        </ol>
+
+        <li>Playstation</li>
+        <ol>
+            <li>Crash</li>
+            <ul type="square">
+                <li>Crash Bandicoot</li>
+                <li>Crash Bandicoot 2: Cortex Strikes Back</li>
+                <li>Crash Bandicoot: Warped</li>
+            </ul>
+            <li>Spider Man</li>
+            <ul type="square">
+                <li>Spider Man</li>
+                <li>Spider-Man 2: Enter Electro</li>
+            </ul>
+        </ol>
+
+        <li>Playstation 4</li>
+        <ol>
+            <li>The Witcher</li>
+            <ul type="square">
+                <li>The Witcher 3: Wild Hunt</li>
+            </ul>
+            <li>FIFA</li>
+            <ul>
+                <li>FIFA 18</li>
+                <li>FIFA 20</li>
+            </ul>
+        </ol>
+
+    </ul>
 </body>
 </html>
